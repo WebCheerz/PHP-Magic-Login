@@ -22,7 +22,7 @@
 - Clone or Download the Repo
 
 ```
-
+git clone https://github.com/WebCheerz/PHP-Magic-Login.git
 ```
 
 - Import the `login.sql` into Database
