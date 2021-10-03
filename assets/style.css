@@ -1,0 +1,101 @@
+body {
+  margin: auto;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #282a36;
+  color: #f8f8f2;
+}
+
+a {
+    color: #f1fa8c;
+    text-decoration: none;
+}
+
+a.login-again{
+    color: #6272a4;
+    padding: 10px;
+}
+
+a.login-again:hover{
+    color: #f1fa8c;
+    background-color: #6272a4;
+    padding: 10px;
+}
+
+a:hover {
+  color: #d0dd40;
+}
+
+.container {
+  padding: 50px;
+}
+
+.field {
+  padding-top: 25px;
+}
+
+.email {
+  font-size: 25px;
+  outline: none;
+  padding: 5px 50px 5px 0;
+  background-color: #282a36;
+  border: none;
+  color: #f8f8f2;
+  border-bottom: #d0dd40 1px solid;
+}
+
+.email::placeholder {
+  color: #777777;
+}
+
+.login {
+  background-color: #6272a4;
+  color: #f8f8f2;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.login:hover {
+  background-color: #45527a;
+}
+
+.message {
+  background-color: #f1fa8c;
+  color: #45527a;
+  padding: 25px;
+}
+
+.logout {
+    color: rgb(255, 34, 34);
+}
+
+.logout:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
