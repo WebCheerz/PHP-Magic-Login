@@ -26,6 +26,7 @@ if (!isset($_SESSION['email'])) {
 <body>
     <div class="container">
         <h2><span class="wave">👋</span> Hello, <?php echo $_SESSION['email']; ?></h2>
+        <p><a href="https://webcheerz.com/php-magic-login">✍🏻 Show me the Tutorial</a></p>
         <a href="logout.php">
             <p class="logout">Logout?</p>
         </a>

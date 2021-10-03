@@ -111,7 +111,7 @@ function SendEmail()
             <form method="POST">
                 <h2>🪄 PHP Magic Login</h2>
                 <p>No need of Password, Enter your email and get login link</p>
-                <p><a href="https://webcheerz.com/">✍🏻 Show me the Tutorial</a></p>
+                <p><a href="https://webcheerz.com/php-magic-login">✍🏻 Show me the Tutorial</a></p>
                 <div class="field">
                     <input type="email" name="email" class="email" placeholder="📨 Enter your Email" autocomplete="off" autofocus="on">
                 </div>
