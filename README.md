@@ -2,6 +2,8 @@
 
 🔒 Password-less login system - Generating login link with Email Address
 
+> Tutorial Link - https://webcheerz.com/php-magic-login/
+
 #### 🍔 Tech Stack
 - PHP
 - MySQL
