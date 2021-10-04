@@ -1,4 +1,4 @@
-### 🪄 PHP Magic Login
+# 🍰 PHP Magic Login
 
 🔒 Password-less login system - Generating login link with Email Address
 
@@ -39,6 +39,11 @@ git clone https://github.com/WebCheerz/PHP-Magic-Login.git
 | $emailFromName | From Address Name   | 
 | $smtpHost      | SMTP HOST           | 
 | $smtpPort      | SMTP Port Value     | 
+| $db_host       | Database Host       | 
+| $db_name       | Database Name       | 
+| $db_username   | Database Username   | 
+| $db_password   | Database Password   | 
+
 
 Example:
 ```
@@ -48,6 +53,12 @@ $emailFrom = 'myemail@gmail.com';
 $emailFromName = 'My Name';
 $smtpHost = 'smtp.gmail.com';
 $smtpPort = 587; #SMTP Port
+-------
+private $db_host = '127.0.0.1';
+private $db_name = 'magicLogin';
+private $db_username = 'root';
+private $db_password = '';
+
 ```
 
 #### 🏃 Auto Reset token every X Minutes
