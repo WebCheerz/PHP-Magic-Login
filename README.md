@@ -4,14 +4,16 @@
 
 > Tutorial Link - https://webcheerz.com/php-magic-login/
 
-#### 🍔 Tech Stack
+![](/PHP%20Magic%20Login%20-%20Screenshot.png)
+
+## 🍔 Tech Stack
 - PHP
 - MySQL
 
-#### ✨ Library
+## ✨ Library
 - PHPMailer (Included)
 
-#### 💎 Features
+## 💎 Features
 - Easy Login & Signup
 - Signup & Login in single form just with Email Address
 - Auto Token Expiry after successful login
@@ -19,7 +21,7 @@
 - SMTP Support
 - Less Configuration
 
-#### 🧰 Installation
+## 🧰 Installation
 
 - Clone or Download the Repo
 
@@ -63,7 +65,7 @@ private $db_password = '';
 
 ```
 
-#### 🏃 Auto Reset token every X Minutes
+## 🏃 Auto Reset token every X Minutes
 - To auto reset token every x minutes you need CRON
 - Here is how to do that
 - Run this command in Terminal
@@ -78,7 +80,7 @@ crontab -e
 - If you want custom time. Please refer to [CronTab.Guru](https://crontab.guru/)
 - Now Save and Exit
 
-#### 📝 Todo
+## 📝 Todo
 
 - [ ] Captcha
 
